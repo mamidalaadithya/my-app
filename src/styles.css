@@ -1,0 +1,40 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Invoice styles */
+.invoice-list {
+    padding: 20px;
+}
+
+.invoice-detail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.invoice-item {
+    margin: 5px 0;
+}
+
+/* Product styles */
+.product-list {
+    padding: 20px;
+}
+
+.product-detail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.product-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* Additional styles can be added as needed */
