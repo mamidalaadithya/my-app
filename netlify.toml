@@ -1,8 +1,8 @@
 [build]
-  command = "NODE_OPTIONS=--openssl-legacy-provider npm run build"
+  command = "npm run build"
   publish = "build"
 
-[build.environment]
+[context.production.environment]
   NODE_VERSION = "16"
 
 [[redirects]]
