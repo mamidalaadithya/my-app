@@ -1,2 +1,6 @@
 [build]
-node_version = "18"
+  command = "npm run build"
+  publish = "build"
+
+[context.production.environment]
+  NODE_VERSION = "18"
